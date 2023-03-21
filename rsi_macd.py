@@ -34,6 +34,6 @@ data["CumulativeReturns"] = np.exp(data["StrategyReturns"].cumsum()) - 1
 # Print the results
 print("RSI Period:", rsi_period)
 print("MACD Fast Period:", macd_fast_period)
-print("MACD Slow Period:", macd_slow_period)
+print("MACD Lag Period:", macd_slow_period)
 print("MACD Signal Period:", macd_signal_period)
 print(data.tail())
